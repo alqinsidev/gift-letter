@@ -21,7 +21,7 @@ function App() {
       <Typography sx={{position:'absolute',top:'43%'}} variant="h5">Happy Birthday Litha 🎂 </Typography>
         {
           !intro ? null
-          : <BUTTON color="primary" onClick={()=>setPage(true)}>Find More</BUTTON>
+          : <BUTTON color="primary" onClick={()=>setPage(true)}>See Memories</BUTTON>
         }
       </>
     )

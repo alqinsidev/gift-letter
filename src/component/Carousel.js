@@ -13,6 +13,7 @@ import G7 from '../assets/G7.png'
 import G8 from '../assets/G8.png'
 import G9 from '../assets/G9.png'
 import G10 from '../assets/G10.png'
+import G11 from '../assets/G11.png'
 export default function Carousel() {
     
 
@@ -35,6 +36,7 @@ export default function Carousel() {
               <div><Img src={G7}/></div>
               <div><Img src={G8}/></div>
               <div><Img src={G9}/></div>
+              <div><Img src={G11}/></div>
               <div><Img src={G10}/></div>
         </CAR>
   )
