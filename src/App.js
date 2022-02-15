@@ -1,7 +1,7 @@
 
 import styled from "@emotion/styled"
+import {keyframes} from "@emotion/react"
 import { Grid, Typography } from "@mui/material";
-import { flexbox } from "@mui/system";
 import React,{useState} from "react"
 
 function App() {
@@ -14,13 +14,19 @@ function App() {
     </React.Fragment>
   );
 }
+const fadeIn = keyframes`
+    0% { opacity: 0; }
+    100%   { opacity: 1; }
+`
 
 const Div = styled.div({
   display:`flex`,
   justifyContent:`center`,
   alignItems:'center',
   height:'100vh',
-  flexDirection:'column'
+  flexDirection:'column',
+  animation:`${fadeIn} 1s linear 1`
 })
+
 
 export default App;
