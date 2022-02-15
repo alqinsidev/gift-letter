@@ -9,6 +9,7 @@ function App() {
     <React.Fragment>
       <Div>
         <Typography variant="h5">Happy Birthday Litha 🎂 </Typography>
+        {/* <Typography variant="p">Wish you all the best </Typography> */}
       </Div>
     </React.Fragment>
   );
@@ -18,7 +19,8 @@ const Div = styled.div({
   display:`flex`,
   justifyContent:`center`,
   alignItems:'center',
-  height:'100vh'
+  height:'100vh',
+  flexDirection:'column'
 })
 
 export default App;
